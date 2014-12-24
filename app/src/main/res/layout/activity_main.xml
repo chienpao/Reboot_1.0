@@ -1,0 +1,80 @@
+<RelativeLayout android:id="@+id/LayoutRelative"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:padding="20dp" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/accent_material_dark">
+        <TextView android:id="@+id/TextTimer" android:layout_width="wrap_content"
+            android:textSize="100sp" android:layout_height="wrap_content"
+            android:text="@string/zero" android:layout_alignBaseline="@+id/GroupRadioType"
+            android:layout_margin="20dp" android:layout_alignParentRight="true">
+        </TextView>
+        <ToggleButton android:id="@+id/ButtonToggle"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="36sp" android:textOn="Stop"
+            android:textOff="Start" android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+        </ToggleButton>
+        <RadioGroup android:id="@+id/GroupRadioType"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/version"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/note"
+                android:id="@+id/textView3" />
+
+            <RadioButton android:id="@+id/RadioReboot"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/reboot">
+            </RadioButton>
+            <RadioButton android:id="@+id/RadioShutDown"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/shutdown">
+            </RadioButton>
+            <RadioButton android:id="@+id/RadioSleep"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/sleep_wakeup">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:id="@+id/TextCountdown"
+            android:layout_marginTop="20dp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/countdown"
+            android:textSize="24sp"
+            android:layout_below="@+id/GroupRadioType">
+        </TextView>
+        <EditText android:id="@+id/EditCountdown"
+            android:layout_width="100dp" android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:numeric="integer"
+            android:layout_toRightOf="@+id/TextCountdown"
+            android:layout_alignBaseline="@+id/TextCountdown">
+        </EditText>
+        <TextView android:id="@+id/TextDelay"
+            android:layout_marginTop="30dp" android:layout_width="wrap_content"
+            android:textSize="24sp"
+            android:layout_height="wrap_content" android:text="@string/delay"
+            android:layout_below="@+id/TextCountdown">
+        </TextView>
+        <EditText android:id="@+id/EditDelay" android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:textSize="24sp" android:layout_toRightOf="@+id/TextDelay"
+            android:layout_alignBaseline="@+id/TextDelay">
+        </EditText>
+
+</RelativeLayout>
+
+
+

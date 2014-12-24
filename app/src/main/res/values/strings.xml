@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Reboot!</string>
+    <string name="app_name">Reboot Stress Test</string>
+    <string name="zero">0</string>
+    <string name="reboot">Reboot</string>
+    <string name="shutdown">ShutDown</string>
+    <string name="sleep_wakeup">Sleep/Wakeup</string>
+    <string name="countdown">Countdown: </string>
+    <string name="delay">Delay: </string>
+    <string name="action_settings">Menu</string>
+    <string name="version">version:1.0.0\nminSdkVersion:15\ntargetSdkVersion:21</string>
+    <string name="note">support Android L 5.0</string>
+</resources>

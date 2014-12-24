@@ -1,0 +1,116 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	android:sharedUserId
+		ADDED from AndroidManifest.xml:4:5
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+permission#RebootPermission
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:17
+uses-permission#android.permission.REBOOT
+ADDED from AndroidManifest.xml:8:9
+	android:name
+		ADDED from AndroidManifest.xml:8:26
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:9:9
+	android:name
+		ADDED from AndroidManifest.xml:9:26
+uses-permission#android.permission.SHUTDOWN
+ADDED from AndroidManifest.xml:10:9
+	android:name
+		ADDED from AndroidManifest.xml:10:26
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from AndroidManifest.xml:11:9
+	android:name
+		ADDED from AndroidManifest.xml:11:26
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:12:9
+	android:name
+		ADDED from AndroidManifest.xml:12:26
+uses-permission#android.permission.DEVICE_POWER
+ADDED from AndroidManifest.xml:13:9
+	android:name
+		ADDED from AndroidManifest.xml:13:26
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:14:9
+	android:name
+		ADDED from AndroidManifest.xml:14:26
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:15:9
+	android:name
+		ADDED from AndroidManifest.xml:15:26
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from AndroidManifest.xml:16:9
+	android:name
+		ADDED from AndroidManifest.xml:16:26
+application
+ADDED from AndroidManifest.xml:19:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:22:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:20:9
+	android:icon
+		ADDED from AndroidManifest.xml:21:9
+	android:theme
+		ADDED from AndroidManifest.xml:23:9
+activity#com.reboot.pao_chueh.reboot.MainActivity
+ADDED from AndroidManifest.xml:24:9
+	android:label
+		ADDED from AndroidManifest.xml:26:13
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:27:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:27
+receiver#com.reboot.pao_chueh.reboot.RebootReceiver
+ADDED from AndroidManifest.xml:33:9
+	android:label
+		ADDED from AndroidManifest.xml:33:49
+	android:exported
+		ADDED from AndroidManifest.xml:34:36
+	android:enabled
+		ADDED from AndroidManifest.xml:34:13
+	android:name
+		ADDED from AndroidManifest.xml:33:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:35:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:36:25
+receiver#com.reboot.pao_chueh.reboot.AlarmReceiver
+ADDED from AndroidManifest.xml:39:9
+	android:name
+		ADDED from AndroidManifest.xml:39:19
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
